@@ -1,0 +1,96 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    
+    background-image: url('https://quangcaonoithatdep.vn/wp-content/uploads/2021/08/mau-thiet-ke-cua-hang-giay-dep-tui-xach-dep-5.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+
+}
+
+
+header {
+    background-color: #3498db; /* Màu xanh dương */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #2c3e50; /* Màu xám đậm */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Màu cam khi hover */
+}
+
+main {
+    margin: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    color: #2c3e50; /* Màu xám đậm */
+}
+
+.products {
+    margin-top: 20px;
+}
+
+.products h3 {
+    color: #3498db; /* Màu xanh dương */
+    text-align: center;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-image {
+    width: 100%; /* Chiều rộng 100% */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Tỷ lệ hình ảnh */
+    border-radius: 8px; /* Bo tròn góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
+
+.location {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: #2c3e50; /* Màu xám đậm */
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

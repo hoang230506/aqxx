@@ -1,0 +1,143 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://th.bing.com/th/id/OIF.JBlbU1Rn8FgmkBLxvF5baw?w=349&h=164&c=7&r=0&o=5&pid=1.7');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+
+}
+
+header {
+    background-color: #3498db; 
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #d3189b; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Màu cam khi hover */
+}
+
+main {
+    margin: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    color: #2c3e50; /* Màu xám đậm */
+}
+
+.hero-image {
+    width: 100%; /* Chiều rộng 100% */
+    max-width: 600px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Tỷ lệ hình ảnh */
+    border-radius: 8px; /* Bo tròn góc */
+}
+
+.about {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.about-image {
+    width: 100%; /* Chiều rộng 100% */
+    max-width: 600px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Tỷ lệ hình ảnh */
+    border-radius: 8px; /* Bo tròn góc */
+}
+
+.services {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.services h3 {
+    color: #32dd10; /* Màu xanh dương */
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service-image {
+    width: 100%; /* Chiều rộng 100% */
+    max-width: 400px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Tỷ lệ hình ảnh */
+    border-radius: 8px; /* Bo tròn góc */
+}
+
+.testimonials {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.testimonials-image {
+    width: 100%; /* Chiều rộng 100% */
+    max-width: 600px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Tỷ lệ hình ảnh */
+    border-radius: 8px; /* Bo tròn góc */
+}
+
+.portfolio {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.portfolio-image {
+    width: 100%; /* Chiều rộng 100% */
+    max-width: 600px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Tỷ lệ hình ảnh */
+    border-radius: 8px; /* Bo tròn góc */
+}
+
+.contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-image {
+    width: 100%; /* Chiều rộng 100% */
+    max-width: 600px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Tỷ lệ hình ảnh */
+    border-radius: 8px; /* Bo tròn góc */
+}
+
+footer {
+    text-align: center;
+    background-color: #e02121; /* Màu xám đậm */
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

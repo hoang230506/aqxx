@@ -1,0 +1,71 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    
+        background-image: url('https://th.bing.com/th?id=OIP.Ndmi9gK7IPf72ux5b6f8MwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2');
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+    
+}
+
+header {
+    background-color: #b8ca65; 
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #067221; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Màu cam khi hover */
+}
+
+main {
+    margin: 20px;
+}
+
+.main-image, .about-image, .keywords-image, .recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Đổ bóng đậm hơn */
+}
+
+h2, h3 {
+    color: #27ae60; /* Màu xanh lá */
+}
+
+footer {
+    text-align: center;
+    background-color: #2c3e50; /* Màu xám đậm */
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
